@@ -4,13 +4,12 @@
 
 Есть роут, который возвращает список заметок
 
-<code>
-Route::get('/api/notes', function () {   <br>
-    return response()->json([            <br>
-        ['id' => 1, 'title' => 'Первая'],<br>
-        ['id' => 2, 'title' => 'Вторая'],<br>
-    ]);                                  <br>
-</code>
+<code>Route::get('/api/notes', function () {      <br>
+    return response()->json([                     <br>
+        ['id' => 1, 'title' => 'Первая'],         <br>
+        ['id' => 2, 'title' => 'Вторая'],         <br>
+    ]);                                           <br>
+]);                                               <br></code>
 
 
 Нужно реализовать следующий мидлвар:
