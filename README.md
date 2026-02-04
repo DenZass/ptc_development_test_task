@@ -30,3 +30,14 @@ Route::get('/api/notes', function () {<br>
 - Контроллеры не использовались
 - Роут размещен в файле routes/api.php
 - Класс посредник назван RoleChecking, размещён в папке app\Http\Middleware
+
+## Как запустить проект:
+1. Скачать проект
+2. Скопировать файл .env.example, вставить рядом, переименовать в .env 
+3. Выполнить команды:
+
+ - <code>composer install</code>
+ - <code>php artisan key:generate</code>
+ - <code>php artisan serve</code>
+
+Далее тестировать через программу Postman по адресу http://127.0.0.1:8000
